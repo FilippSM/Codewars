@@ -11,11 +11,11 @@ function countSheeps(sheep) {
       } 
     } 
     return count; 
-  }
+}
   
-  console.log("countSheeps: ", countSheeps(undefined));
-  console.log("countSheeps: ", countSheeps(null));
-  console.log("countSheeps: ", countSheeps(false));
-  console.log("countSheeps: ", countSheepss(true));
-  console.log("countSheeps: ", countSheepss([undefined,null,false,true]));
-  console.log("countSheeps: ", countSheepss([true,true,true,false,true,true,true,true,true,false,true,false,true,false,false,true,true,true,true,true,false,false,true,true]));
+  console.log("countSheeps: ", countSheeps([undefined]));
+  console.log("countSheeps: ", countSheeps([null]));
+  console.log("countSheeps: ", countSheeps([false]));
+  console.log("countSheeps: ", countSheeps([true]));
+  console.log("countSheeps: ", countSheeps([undefined,null,false,true]));
+  console.log("countSheeps: ", countSheeps([true,true,true,false,true,true,true,true,true,false,true,false,true,false,false,true,true,true,true,true,false,false,true,true]));

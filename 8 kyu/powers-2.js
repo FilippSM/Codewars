@@ -11,7 +11,7 @@ function powersOfTwo(n){
     } 
     return arr; 
   };
-  
+
   console.log("powersOfTwo: ", powersOfTwo(0));
   console.log("powersOfTwo: ", powersOfTwo(1));
   console.log("powersOfTwo: ", powersOfTwo(4));
