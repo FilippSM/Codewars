@@ -7,7 +7,7 @@ The sorting should NOT be case sensitive */
 
 // SOLUTION
 function sorter(textbooks) {
-    let a = textbooks.sort((a, b) => {
+    return textbooks.sort((a, b) => {
         if (a.toLowerCase() < b.toLowerCase()) {
             return -1;
         }
@@ -16,8 +16,6 @@ function sorter(textbooks) {
         }
         return 0;
     });
-
-    return a;
 };
 
 console.log("sorter: ", sorter(['Algebra', 'History', 'Geometry', 'English']));
